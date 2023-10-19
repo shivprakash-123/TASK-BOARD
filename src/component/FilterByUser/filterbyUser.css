@@ -1,0 +1,48 @@
+.user-list {
+    display: flex;
+    gap: 40px;
+    min-width: 200px;
+    /* padding: 10px; */
+}
+
+.users{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* min-width: 300px; */
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.title-icon{
+    display: flex;
+    gap: 10px;
+}
+.title-bar{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.user-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.card-box{
+    height: 90px;
+}
+.card-title {
+    max-height:20px; /* or the height that suits your two lines of text */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-title:hover{
+    overflow: visible;
+    background-color: white;
+    z-index: 3;
+}
+
